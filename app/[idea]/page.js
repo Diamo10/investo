@@ -1,14 +1,13 @@
-'use client'
-import Ideaview from "@/components/ideapreview"
-import { useRouter } from "next/navigation"
+"use client";
+import Ideaview from "@/components/ideapreview";
+import { useRouter } from "next/navigation";
 
-
-const Preview = ({params}) => {
+const Preview = ({ params }) => {
   return (
     <div>
-        <Ideaview ideaId= {params.idea}/>
+      <Ideaview ideaId={params.idea} />
     </div>
-  )
-}
+  );
+};
 
-export default Preview
+export default Preview;
